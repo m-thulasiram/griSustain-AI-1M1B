@@ -1,0 +1,6 @@
+kind: connection
+app_id: watsonx_agrisustain_connection
+description: >
+  IBM watsonx connection for AgriSustain AI. Provides authenticated access to
+  IBM Granite models and watsonx services for the AgriSustain agricultural
+  decision-support system.

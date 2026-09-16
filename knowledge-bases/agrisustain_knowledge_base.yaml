@@ -1,0 +1,15 @@
+kind: knowledge_base
+name: agrisustain_agricultural_knowledge
+description: >
+  Agricultural knowledge base for AgriSustain AI. Contains trusted information
+  on crop management, water sustainability, soil health, pest and disease
+  management, climate-resilient farming, and sustainable practices aligned with
+  SDG 2 (Zero Hunger), SDG 6 (Clean Water), SDG 12 (Responsible Consumption),
+  and SDG 13 (Climate Action).
+chunking_config:
+  chunk_size: 512
+  chunk_overlap: 64
+embedding_model: ibm/slate-125m-english-rtrvr
+retrieval_config:
+  top_k: 5
+  similarity_threshold: 0.6
